@@ -1,7 +1,7 @@
 //set initial count
 let count = 0;
 //select value and buttons
-const value = document.querySelector("#value");
+const value = document.getElementById("value");
 const btns = document.querySelectorAll(".btn");
 
 btns.forEach(function (btn) {
